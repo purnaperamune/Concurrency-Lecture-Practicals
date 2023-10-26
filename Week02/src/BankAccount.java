@@ -61,5 +61,6 @@ public class BankAccount {
         }
         accountBalance -= withdrawalAmount;
         System.out.println("Account balance after withdrawing: "+accountBalance);
+        notifyAll();
     }
 }

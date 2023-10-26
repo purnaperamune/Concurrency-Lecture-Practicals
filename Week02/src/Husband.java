@@ -8,7 +8,7 @@ public class Husband implements Runnable{
     @Override
     public void run() {
         for(int x=0;x<10;x++){
-        bankAccount.withdrawMoney(bankAccount.DAILY_ALLOWANCE);
+            bankAccount.withdrawMoney(bankAccount.DAILY_ALLOWANCE);
         }
     }
 }
